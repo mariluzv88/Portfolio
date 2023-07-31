@@ -1,46 +1,46 @@
+.container{
+    margin: 0px;
+    height: 100vh;
+    scroll-snap-type:y mandatory;
+    scroll-behavior: smooth;
+    overflow-y: auto;
+};
+::-webkit-scrollbar{
+    display: none;
+    scrollbar-width: none ;
+ }
+
 body{
     margin: 0px;
     padding: 0px; 
-   
 }
-::-webkit-scrollbar{
-    display: none;
-}
-.container{
- scroll-snap-type:y mandatory;
- scroll-behavior: smooth;
- overflow-y: scroll;
- scrollbar-width: none;
-}
+
 .profile{
+    
    height: 100vh;
    background-color: black; 
    color: white;
    scroll-padding-top: 0;
-   scroll-snap-align: start;
-   scroll-snap-stop: always;
+   scroll-snap-align: center
 }
 .about{
    height: 100vh;
    background-color: rgb(61, 61, 61); 
    color: white;
    scroll-padding-top: 0;
-   scroll-snap-align: start;
-   scroll-snap-stop: always;
+   scroll-snap-align: center
 }
 .projects{
    height: 100vh;
    background-color: rgb(139, 139, 139); 
    color: white;
    scroll-padding-top: 0;
-   scroll-snap-align: start;
-   scroll-snap-stop: always;
+   scroll-snap-align: center
 }
 .contact{
    height: 100vh;
    background-color: rgb(189, 189, 189); 
    color: white;
    scroll-padding-top: 0;
-   scroll-snap-align: start;
-   scroll-snap-stop: always;
+   scroll-snap-align: center
 }

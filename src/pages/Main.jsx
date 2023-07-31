@@ -8,14 +8,15 @@ import Profile from './Profile'
 function Main() {
   return (
     <div className='container'>
-      <div className='profile'>
-      <Profile/> </div>
-      <div className='about'>
-      <About/></div>
-      <div className='projects'>
-      <Projects/></div>
-      <div className='contact'>
-      <Contact/></div>
+        <div className='profile'>
+      <div>Mari's Portfolio</div>
+        <Profile/> </div>
+        <div className='about'>
+        <About/></div>
+        <div className='projects'>
+        <Projects/></div>
+        <div className='contact'>
+        <Contact/></div>
     </div>
   )
 }
