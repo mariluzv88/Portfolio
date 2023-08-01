@@ -6,7 +6,9 @@ const AppContextProvider = (props)=>{
     const [trivia, setTrivia]= useState(null)
     const getTrivia = async () =>{
         const response = await axios.get('https://opentdb.com/api.php?amount=20&category=18&difficulty=easy&type=multiple')
-        setTrivia(response.data.results)
+        let triv = response.data.results
+        let ranNum = Math.floor(Math.random()*triv.length)
+        setTrivia(triv[ranNum])
         console.log(response.data.results)
     }
     useEffect(()=>{

@@ -5,6 +5,7 @@ import Contact from './Contact'
 import Profile from './Profile'
 import Nav from '../components/Nav'
 import { Link } from 'react-router-dom'
+import GameBoard from '../components/GameBoard'
 
 
 function Main() {
@@ -12,8 +13,9 @@ function Main() {
     <div className='container'>
       
         <div className='profile' id='profile'>
-        
-        <Nav/> </div>
+        <Nav/>
+        <GameBoard/>
+        </div>
         <div className='about' id='about'>
         <Link to="/about">
             <div >ABOUT</div>
