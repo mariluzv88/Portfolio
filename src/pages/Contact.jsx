@@ -1,8 +1,10 @@
 import React from 'react'
+import Back from '../components/Back'
 
 function Contact() {
   return (
-    <div>Contact</div>
+    <div className='contact'>
+        <Back/>Contact</div>
   )
 }
 

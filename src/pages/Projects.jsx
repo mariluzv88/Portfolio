@@ -1,9 +1,12 @@
 import React from 'react'
+import Back from '../components/Back'
 
 function Projects() {
   return (
     
-    <div>Projects</div>
+    <div className='projects'>
+    <Back/>Projects
+    </div>
   )
 }
 

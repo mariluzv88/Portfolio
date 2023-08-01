@@ -1,8 +1,10 @@
 import React from 'react'
+import Back from '../components/Back'
 
 function About() {
   return (
-    <div >About</div>
+    <div className='about'>
+      <Back/>About</div>
   )
 }
 
