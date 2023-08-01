@@ -3,8 +3,17 @@ import { AppContext } from '../context/App_context'
 
 
 function GameBoard() {
+  let y = true
+  let n =  false
     let {trivia} = useContext(AppContext)
     let {getTrivia} = useContext(AppContext)
+    const answer = (key)=>{
+        if(key === y){
+          console.log('right')
+        }else if(key === n ){
+          console.log("wrong")
+        }
+    }
     useEffect(()=>{
       console.log(trivia)
         getTrivia()
@@ -21,11 +30,11 @@ function GameBoard() {
           <h3>{trivia.question}</h3> 
               <div className='btnContainer'>
                   <div className='answers'>
-                    <button className='btn' key={i}>{trivia.correct_answer}</button>
+                    <button onClick={()=>answer(y)} className='btn'  >{trivia.correct_answer}</button>
                   {trivia ?(trivia.incorrect_answers.map((q,i)=>{
                   return(
                     <div>
-                    <button className='btn' key={i}>{q}</button>
+                    <button onClick={()=>answer(n)} className='btn' key={i}>{q}</button>
                     </div>
                   )
                   })):(<p>Loading...</p>) }
