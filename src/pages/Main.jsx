@@ -6,45 +6,104 @@ import Profile from './Profile'
 import Nav from '../components/Nav'
 import { Link } from 'react-router-dom'
 import GameBoard from '../components/GameBoard'
+import{useContext,useEffect,useReducer, useState} from 'react'
+import { AppContext } from '../context/App_context'
 
 
+
+// onClick={popup()}
 function Main() {
+    let {setGameBoard,gameBoard}= useContext(AppContext)
+    
   return (
     <div className='container'>
-      
+        <div className='gameBtn'>
+        <button onClick={()=>{
+            setGameBoard(!gameBoard)
+        }}  className='noviceEngineer'>!!Help!!    this novice become an engineer</button>
+        </div>
         <div className='profile' id='profile'>
-        <Nav/>
-        <GameBoard/>
+            <Nav/>
+            
+            {/* <GameBoard/> */}
         </div>
         <div className='about' id='about'>
-        <Link to="/about">
-            <div >ABOUT</div>
-        </Link>
-        <a href="#profile">
-            <div>
-               Home
+           
+            {/* <a href="#profile">
+                <div>
+                Home
+                </div>
+            </a> */}
+            <div className='mainContainer'>
+                <div className='main'>
+                    <h1>Software Engineer</h1>
+                    <h4>Hi,I'm Mariluz Vargas</h4>
+                    <h5> I am a college educated, highly motivated,</h5>
+                    <h5> Software Engineer with experience in web applications</h5>
+                    <div>
+                        <a href="https://www.linkedin.com/in/mariluz-vargas">
+                            <div>
+                            linkedin
+                            </div>
+                        </a>   
+                        <a href="https://github.com/mariluzv88">
+                            <div>
+                            gitHub
+                            </div>
+                        </a>
+                         <Link id='a' to="/about">
+                         <div >ABOUT</div>
+                         </Link>   
+                    </div>
+                    
+                </div>
+                <div className='main'>
+                <img className='icon' src='./images/mari.png'/>
+                </div>
+
             </div>
-        </a>
+                {/* <GameBoard/> */}
         </div>
         <div className='projects' id='projects'>
-        <Link to="/projects">
-            <div>PROJECTS</div>
-        </Link>
-        <a href="#profile">
-            <div>
-               Home
-            </div>
-        </a>
+          
+            {/* <a href="#profile">
+                <div>
+                Home
+                </div>
+            </a> */}
+            <div className='projectContainer'>
+                <div className='pro'>
+                        <a href="https://www.linkedin.com/in/mariluz-vargas">
+                            <div>
+                            Live Demo
+                            </div>
+                        </a>   
+                        <a href="https://github.com/mariluzv88">
+                            <div>
+                            Code
+                            </div>
+                        </a>  
+                        <Link id='a' to="/projects">
+                        <div>PROJECTS</div>
+                        </Link> 
+                    </div>
+                </div>
+            
        </div>
         <div className='contact' id='contact'>
-        <Link to="/contact">
-            <div>CONTACT</div>
-        </Link> 
-        <a href="#profile">
-            <div>
-               Home
-            </div>
-        </a>
+                <div className='contactContainer'>
+                    <div className='con'>
+                        <Link id='a' to="/contact">
+                            <div>CONTACT</div>
+                        </Link> 
+                        {/* <a href="#profile">
+                            <div>
+                            Home
+                            </div>
+                        </a> */}
+                        <GameBoard/>
+                    </div>
+                </div>
         </div>
     </div>
     
