@@ -96,6 +96,11 @@ function Main() {
                         <Link id='a' to="/contact">
                             <div>CONTACT</div>
                         </Link> 
+                        <a href="./images/mari.pdf">
+                            <div>
+                            Resume PDF
+                            </div>
+                            </a>
                         {/* <a href="#profile">
                             <div>
                             Home
