@@ -13,9 +13,9 @@ const AppContextProvider = (props)=>{
         console.log(response.data.results)
     }
    
-    useEffect(()=>{
-        getTrivia()
-      },[])
+    // useEffect(()=>{
+    //     getTrivia()
+    //   },[])
     return(
         <AppContext.Provider value={{
             getTrivia,trivia,setTrivia,gameBoard,setGameBoard

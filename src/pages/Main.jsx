@@ -14,13 +14,18 @@ import { AppContext } from '../context/App_context'
 // onClick={popup()}
 function Main() {
     let {setGameBoard,gameBoard}= useContext(AppContext)
+    let {getTrivia} = useContext(AppContext)
     // let game = document.getElementsByClassName('.gameContainer')
+    const triviaGame = () =>{
+        setGameBoard(!gameBoard)
+    }
     
   return (
     <div className='container'>
         <div className='gameBtn'>
         <button onClick={()=>{
-            setGameBoard(!gameBoard)
+            getTrivia()
+            triviaGame()
             // game.style= {display:  "flex"}
         }}  className='noviceEngineer'>!!Help!!    this novice become an engineer</button>
         </div>

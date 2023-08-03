@@ -22,11 +22,11 @@ function GameBoard() {
 
     // }
 
-    useEffect(()=>{
-      console.log(trivia)
-        getTrivia()
-      //  game.style = {{display : "none"}}
-      },[])
+    // useEffect(()=>{
+    //   console.log(trivia)
+    //   setGameBoard(null)
+    //     // getTrivia()
+    //   },[])
       const loaded = ()=>{
   return (
     <div className={gameBoard ?'gameBoard' :null}>
