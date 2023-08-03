@@ -5,9 +5,11 @@ import { AppContext } from '../context/App_context'
 function GameBoard() {
   let y = true
   let n =  false
+  let game = document.getElementById('.gameBoard')
+  document.getElementById('gameBoard')
     let {trivia} = useContext(AppContext)
     let {getTrivia} = useContext(AppContext)
-    let {gameBoard} = useContext(AppContext)
+    let {setGameBoard,gameBoard} = useContext(AppContext)
     // const [state,dispatch] = useReducer(reducer,{})
     const answer = (key)=>{
         if(key === y){
@@ -23,6 +25,7 @@ function GameBoard() {
     useEffect(()=>{
       console.log(trivia)
         getTrivia()
+      //  game.style = {{display : "none"}}
       },[])
       const loaded = ()=>{
   return (

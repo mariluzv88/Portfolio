@@ -8,7 +8,7 @@ function Nav() {
         <div className='navContainer'>
             <div >Mari's Portfolio</div>
             
-                <a href="#profile">
+                <a className='navLink' href="#profile">
                         <div>
                         Home
                         </div>
@@ -19,13 +19,13 @@ function Nav() {
                     <img className='icon' src='./images/mari.png'/>
                 </div>
             </a> */}
-            <a href="#about">
+            <a className='navLink' href="#about">
                 <div >ABOUT</div>
             </a>
-            <a href="#projects">
+            <a  className='navLink' href="#projects">
                 <div>PROJECTS</div>
             </a>
-            <a href="#contact">
+            <a className='navLink' href="#contact">
                 <div>CONTACT</div>
             </a>
         </div>
