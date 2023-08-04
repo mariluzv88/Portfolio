@@ -15,10 +15,12 @@ import { AppContext } from '../context/App_context'
 function Main() {
     let {setGameBoard,gameBoard}= useContext(AppContext)
     let {getTrivia} = useContext(AppContext)
-    // let game = document.getElementsByClassName('.gameContainer')
+    let {setStage} = useContext(AppContext)
     const triviaGame = () =>{
         setGameBoard(!gameBoard)
+       setStage('Start')
     }
+    
     
   return (
     <div className='container'>
@@ -27,7 +29,7 @@ function Main() {
             getTrivia()
             triviaGame()
             // game.style= {display:  "flex"}
-        }}  className='noviceEngineer'>!!Help!!    this novice become an engineer</button>
+        }}  className='noviceEngineer'>!!KELP!!   </button>
         </div>
         <div className='profile' id='profile'>
             <Nav/>

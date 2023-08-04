@@ -177,22 +177,34 @@ border-width: 4px;
     position: absolute;
     transform: translate(-50%,-50%);
     display: flex;
+    
     /* display: none; */
 }
 .game{
    /* width: 65%; */
    top: 40%;
-   left: 65%;
+   left: 20%;
    position: absolute;
    transform: translate(-50%,-50%);
+  
 }
 .engineer{
    /* width: 35%; */
-   top: 40%;
-   left: 25%;
+   top: 50%;
+   left: 50%;
    position: absolute;
    transform: translate(-50%,-50%);
 }
+.engineerDone{
+   /* width: 35%; */
+   top: 50%;
+   left: 50%;
+   position: absolute;
+   transform: translate(-50%,-50%);
+   background-image: url('https://i0.wp.com/fintechsbrasil.com.br/wp-content/uploads/2021/09/falling-money.gif?fit=1920%2C1080&ssl=1');
+   background-size: 100% 100%;
+}
+
 .answers{
    display: flex;
    flex-direction: column;

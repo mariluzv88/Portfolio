@@ -5,6 +5,7 @@ export const AppContext = createContext()
 const AppContextProvider = (props)=>{
     const [trivia, setTrivia]= useState(null)
     const [gameBoard, setGameBoard] = useState(false)
+    const [stage,setStage] = useState("")
     const getTrivia = async () =>{
         const response = await axios.get('https://opentdb.com/api.php?amount=20&category=18&difficulty=easy&type=multiple')
         let triv = response.data.results
@@ -18,7 +19,7 @@ const AppContextProvider = (props)=>{
     //   },[])
     return(
         <AppContext.Provider value={{
-            getTrivia,trivia,setTrivia,gameBoard,setGameBoard
+            getTrivia,trivia,setTrivia,gameBoard,setGameBoard,stage,setStage
 
         }}>
             {props.children}
