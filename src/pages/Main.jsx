@@ -20,7 +20,9 @@ function Main() {
         setGameBoard(!gameBoard)
        setStage('Start')
     }
-    
+    // useEffect(()=>{
+    //     getTrivia()
+    //   },[triviaGame()])
     
   return (
     <div className='container'>

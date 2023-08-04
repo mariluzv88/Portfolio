@@ -35,7 +35,10 @@ function TriviaS3() {
                       <div className='answers'>
                         {/* <button onClick={()=>getAnswer(y)} className='btn'  >{trivia.correct_answer}</button> */}
                         <button onClick={()=>getAnswer(y)} className='btn'  >{trivia.correct_answer}</button>
-                      {trivia ?(trivia.incorrect_answers.map((q,i)=>{
+                        <button onClick={()=>getAnswer(n)} className='btn'  >{trivia.incorrect_answers[1]}</button>
+                        <button onClick={()=>getAnswer(n)} className='btn'  >{trivia.incorrect_answers[2]}</button> 
+                        <button onClick={()=>getAnswer(n)} className='btn'  >{trivia.incorrect_answers[0]}</button>
+                      {/* {trivia ?(trivia.incorrect_answers.map((q,i)=>{
                          
                         //   let an = [`${trivia.correct_answer},${q}`]
                          
@@ -45,7 +48,7 @@ function TriviaS3() {
                         </div>
                       )
                       
-                      })):(<p>Loading...</p>) }
+                      })):(<p>Loading...</p>) } */}
                     </div>
                 </div>
             </div>
