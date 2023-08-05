@@ -6,13 +6,18 @@ import Profile from './Profile'
 import Nav from '../components/Nav'
 import { Link } from 'react-router-dom'
 import GameBoard from '../components/GameBoard'
-import{useContext,useEffect,useReducer, useState} from 'react'
+import{useContext,useEffect,useRef, useState} from 'react'
 import { AppContext } from '../context/App_context'
+import { motion } from 'framer-motion'
+
 
 
 
 // onClick={popup()}
 function Main() {
+    let {rightCaro,setRightCaro}= useContext(AppContext)
+    let {leftCaro,setLeftCaro}= useContext(AppContext)
+    const caroSell = useRef()
     let {setGameBoard,gameBoard}= useContext(AppContext)
     let {getTrivia} = useContext(AppContext)
     let {setStage} = useContext(AppContext)
@@ -20,9 +25,11 @@ function Main() {
         setGameBoard(!gameBoard)
        setStage('Start')
     }
-    // useEffect(()=>{
-    //     getTrivia()
-    //   },[triviaGame()])
+    useEffect(()=>{
+       console.log(caroSell.current.scrollWidth, caroSell.current.offsetWidth)
+       setRightCaro(caroSell.current.scrollWidth-caroSell.current.offsetWidth)
+       setLeftCaro(caroSell.current.scrollWidth-caroSell.current.offsetWidth)
+      },[])
     
   return (
     <div className='container'>
@@ -82,6 +89,7 @@ function Main() {
                 </div>
             </a>
              <div className='gameBtn'>
+                 
                         <button onClick={()=>{
                             getTrivia()
                             triviaGame()
@@ -148,8 +156,8 @@ function Main() {
                 <div>
                 Home
                 </div>
-            </a> */}
-            {/* <div className='title'>
+            </a> 
+             <div className='title'>
                 <div>PROJECTS</div>
                  <div >
                         <Link className='navLink' to="/projects">
@@ -157,25 +165,80 @@ function Main() {
                         </Link>
                     </div>
             </div> */}
-            <div className='caro'>
-                        <div className='projectContainer'>
-                            <div className='pro'>
+            <motion.div ref={caroSell} className='caro'>
+                        <motion.div drag='x' dragConstraints={{right:+leftCaro,left:-rightCaro}}className='projectContainer'>
+                            {/* <div className='pro'>
                                 <img className='proImg' src='./images/perscholas.jpg' />
-                                    {/* <a  className='code'href="https://mariluzv88.github.io/perScholasMockup/">
-                                        <div>
-                                        Live Demo
-                                        </div>
-                                    </a>   
-                                    <a className='code' href="https://github.com/mariluzv88/perScholasMockup/blob/master/index.html">
-                                        <div>
-                                        Code
-                                        </div>
-                                    </a>  */}
                                     
                                     
+                                    
+                                </div> */}
+                                <div className='pro'>
+                                    <div className='proName'>
+                                <h3>PerScholas Website Mockup</h3>
+                                <h5>Created to emulate the PerScholas Website. Made fully responsive</h5>
                                 </div>
-                            <div className='pro'>
-                                <img className='proImg' src='./images/perscholas.jpg'/>
+                                <a  href="https://mariluzv88.github.io/perScholasMockup/">
+                                        <button className='proBtn'>
+                                        Live Demo
+                                        </button>
+                                    </a>   
+                                    <a  href="https://github.com/mariluzv88/perScholasMockup/blob/master/index.html">
+                                        <button className='proBtn'>
+                                        Code
+                                        </button>
+                                    </a> 
+                                </div>
+                                <div className='pro'>
+                                    <div className='proName'>
+                                <h3>PerScholas Website Mockup</h3>
+                                <h5>Created to emulate the PerScholas Website. Made fully responsive</h5>
+                                </div>
+                                <a  href="https://mariluzv88.github.io/perScholasMockup/">
+                                        <button className='proBtn'>
+                                        Live Demo
+                                        </button>
+                                    </a>   
+                                    <a  href="https://github.com/mariluzv88/perScholasMockup/blob/master/index.html">
+                                        <button className='proBtn'>
+                                        Code
+                                        </button>
+                                    </a> 
+                                </div>
+                                <div className='pro'>
+                                    <div className='proName'>
+                                <h3>PerScholas Website Mockup</h3>
+                                <h5>Created to emulate the PerScholas Website. Made fully responsive</h5>
+                                </div>
+                                <a  href="https://mariluzv88.github.io/perScholasMockup/">
+                                        <button className='proBtn'>
+                                        Live Demo
+                                        </button>
+                                    </a>   
+                                    <a  href="https://github.com/mariluzv88/perScholasMockup/blob/master/index.html">
+                                        <button className='proBtn'>
+                                        Code
+                                        </button>
+                                    </a> 
+                                </div>
+                                <div className='pro'>
+                                    <div className='proName'>
+                                <h3>PerScholas Website Mockup</h3>
+                                <h5>Created to emulate the PerScholas Website. Made fully responsive</h5>
+                                </div>
+                                <a  href="https://mariluzv88.github.io/perScholasMockup/">
+                                        <button className='proBtn'>
+                                        Live Demo
+                                        </button>
+                                    </a>   
+                                    <a  href="https://github.com/mariluzv88/perScholasMockup/blob/master/index.html">
+                                        <button className='proBtn'>
+                                        Code
+                                        </button>
+                                    </a> 
+                                </div>
+                            {/* <div className='pro'>
+                                <img className='proImg' src='./images/perscholas.jpg'/> */}
                                     {/* <a className='code' href="https://mariluzv88.github.io/perScholasMockup/">
                                         <div>
                                         Live Demo
@@ -188,7 +251,7 @@ function Main() {
                                     </a>   */}
                                     
                                     
-                                </div>
+                                {/* </div> */}
                                 {/* <div className='prop'>
                                     <Link id='a' to="/projects">
                                     <div> More Projects</div>
@@ -196,8 +259,8 @@ function Main() {
                                 </div> */}
                         {/* </div>
                         <div className='projectContainer'> */}
-                            <div className='pro'>
-                                <img className='proImg' src='./images/perscholas.jpg'/>
+                            {/* <div className='pro'>
+                                <img className='proImg' src='./images/perscholas.jpg'/> */}
                                     {/* <a className='code' href="https://mariluzv88.github.io/perScholasMockup/">
                                         <div>
                                         Live Demo
@@ -210,9 +273,9 @@ function Main() {
                                     </a>  
                                      */}
                                     
-                                </div>
-                            <div className='pro'>
-                                <img className='proImg' src='./images/perscholas.jpg'/>
+                                {/* </div> */}
+                            {/* <div className='pro'>
+                                <img className='proImg' src='./images/perscholas.jpg'/> */}
                                     {/* <a className='code' href="https://mariluzv88.github.io/perScholasMockup/">
                                         <div>
                                         Live Demo
@@ -225,15 +288,15 @@ function Main() {
                                     </a>  
                                      */}
                                     
-                                </div>
+                                {/* </div> */}
                                 {/* <div className='prop'>
                                     <Link id='a' to="/projects">
                                     <div> More Projects</div>
                                     </Link>
                                 </div> */}
-                        </div>
+                        </motion.div>
                         
-                </div>
+                </motion.div>
                 </div>
         {/* <div className='contact' id='contact'> */}
                 {/* <div className='contactContainer'> */}

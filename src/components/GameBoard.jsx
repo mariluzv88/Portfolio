@@ -12,8 +12,8 @@ import Job from './Job'
 function GameBoard() {
   let y = true
   let n =  false
-  let game = document.getElementById('.gameBoard')
-  document.getElementById('gameBoard')
+  // let game = document.getElementById('.gameBoard')
+  // document.getElementById('gameBoard')
     let {trivia} = useContext(AppContext)
     let {getTrivia} = useContext(AppContext)
     let {setGameBoard,gameBoard} = useContext(AppContext)
@@ -76,7 +76,7 @@ function GameBoard() {
    
   ) }
     const loading = () => {
-    return <h1>Loading...</h1>;
+    return <h1></h1>;
   };
 
   return trivia ? loaded() : loading();

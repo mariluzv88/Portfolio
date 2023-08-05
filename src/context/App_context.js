@@ -3,6 +3,8 @@ import axios from "axios";
 export const AppContext = createContext()
 
 const AppContextProvider = (props)=>{
+    const [rightCaro, setRightCaro]= useState(0)
+    const [leftCaro, setLeftCaro]= useState(0)
     const [trivia, setTrivia]= useState(null)
     const [gameBoard, setGameBoard] = useState(false)
     const [stage,setStage] = useState("")
@@ -20,6 +22,7 @@ const AppContextProvider = (props)=>{
     return(
         <AppContext.Provider value={{
             getTrivia,trivia,setTrivia,gameBoard,setGameBoard,stage,setStage
+            ,rightCaro,setRightCaro,leftCaro,setLeftCaro
 
         }}>
             {props.children}
