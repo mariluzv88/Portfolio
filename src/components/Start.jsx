@@ -7,7 +7,7 @@ function Start() {
   return (
     <div >
          <div className='engineer'>
-            <h3>Help SpongeBob get a job as a SoftWare Engineer</h3>
+            <h3>Help SpongeBob get a job as a Software Engineer</h3>
             <h4>Answer questions to help him learn and grow</h4>
             
             <img className='pic'src='https://i.gifer.com/yB.gif'/>

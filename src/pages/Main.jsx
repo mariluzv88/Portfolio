@@ -26,17 +26,41 @@ function Main() {
     
   return (
     <div className='container'>
-        <div className='gameBtn'>
+        {/* <div className='gameBtn'>
         <button onClick={()=>{
             getTrivia()
             triviaGame()
             // game.style= {display:  "flex"}
         }}  className='noviceEngineer'>!!KELP!!   </button>
-        </div>
+        </div> */}
         <div className='profile' id='profile'>
-            <Nav/>
-            
-            {/* <GameBoard/> */}
+            <div className='hub'>
+                    {/* <Nav/> */}
+                    <button className='name'>MARILUZ VARGAS</button>
+                    <a   href="#projects"><button className='widget'>Projects
+                        
+                        {/* <div>PROJECTS</div> */}
+                    
+                    </button></a>
+                    <div className='gameBtn'>
+                        <button onClick={()=>{
+                            getTrivia()
+                            triviaGame()
+                            // game.style= {display:  "flex"}
+                        }}  className='noviceEngineer'>!!KELP!!   </button>
+                    </div>
+            </div>
+            <div className='hub'>
+            <a   href="https://www.linkedin.com/in/mariluz-vargas"><div className='widget1'>
+                <img className='logo'src='https://www.pagetraffic.com/blog/wp-content/uploads/2022/09/latest-linked-logo.gif'/>
+                </div>
+            </a>
+            <a   href="https://github.com/mariluzv88"><div className='widget1'>
+                <img className='logo'src='https://www.pagetraffic.com/blog/wp-content/uploads/2022/09/latest-linked-logo.gif'/>
+                </div>
+            </a>
+            </div>
+           
         </div>
         <div className='about' id='about'>
            
@@ -45,14 +69,19 @@ function Main() {
                 Home
                 </div>
             </a> */}
+            <div className='overlay'></div>
             <div className='mainContainer'>
                 <div className='main'>
                     <h1>Software Engineer</h1>
                     <h4>Hi,I'm Mariluz Vargas</h4>
                     <h5> I am a college educated, highly motivated,</h5>
                     <h5> Software Engineer with experience in web applications</h5>
+                     <Link className='navLink' to="/about">
+                         <div >Read More</div>
+                         </Link>  
                     <div>
-                        <a href="https://www.linkedin.com/in/mariluz-vargas">
+                    <div className='overlay'></div>
+                        {/* <a href="https://www.linkedin.com/in/mariluz-vargas">
                             <div>
                             linkedin
                             </div>
@@ -61,16 +90,14 @@ function Main() {
                             <div>
                             gitHub
                             </div>
-                        </a>
-                         <Link id='a' to="/about">
-                         <div >ABOUT</div>
-                         </Link>   
+                        </a> */}
+                         
                     </div>
                     
                 </div>
-                <div className='main'>
+                {/* <div className='main'>
                 <img className='icon' src='./images/mari.png'/>
-                </div>
+                </div> */}
 
             </div>
                 {/* <GameBoard/> */}
