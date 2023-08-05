@@ -37,27 +37,67 @@ function Main() {
             <div className='hub'>
                     {/* <Nav/> */}
                     <button className='name'>MARILUZ VARGAS</button>
-                    <a   href="#projects"><button className='widget'>Projects
-                        
+                    <a   href="#projects"><button className='pop'><div className='push1'></div>Projects
+                    {/* <img className='pop'src='https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F438fe720-6157-4ef1-ba7b-73747b06fdbc_480x360.gif'/> */}
                         {/* <div>PROJECTS</div> */}
                     
                     </button></a>
-                    <div className='gameBtn'>
+                    {/* <div className='gameBtn'>
                         <button onClick={()=>{
                             getTrivia()
                             triviaGame()
                             // game.style= {display:  "flex"}
                         }}  className='noviceEngineer'>!!KELP!!   </button>
-                    </div>
+                    </div> */}
             </div>
             <div className='hub'>
-            <a   href="https://www.linkedin.com/in/mariluz-vargas"><div className='widget1'>
+           
+            {/* <a   href="https://github.com/mariluzv88"><div className='widget1'>
+                <img className='logo'src='https://cdn.dribbble.com/users/5816579/screenshots/16062020/media/2338fc5e5258181685bdee0646d17523.jpg?resize=1600x1200&vertical=center'/>
+                </div>
+            </a> */}
+            <Link className='link' to="/contact">
+              <div className='push'>
+                
+                </div>
+                     </Link> 
+             <a   href="https://www.linkedin.com/in/mariluz-vargas"><div className='widget1'>
                 <img className='logo'src='https://www.pagetraffic.com/blog/wp-content/uploads/2022/09/latest-linked-logo.gif'/>
                 </div>
             </a>
-            <a   href="https://github.com/mariluzv88"><div className='widget1'>
+            {/* <a  className='widget2' href="./images/mari.pdf">
+                <div className='push'>Resume PDF</div>
+                
+                
+            </a> */}
+            </div>
+            <div className='hub'>
+           
+            {/* <a   href="https://www.linkedin.com/in/mariluz-vargas"><div className='widget1'>
                 <img className='logo'src='https://www.pagetraffic.com/blog/wp-content/uploads/2022/09/latest-linked-logo.gif'/>
                 </div>
+            </a> */}
+            <a   href="https://github.com/mariluzv88"><div className='widget13'><div className='push3'>GitHub</div>
+                {/* <img className='logo'src='https://cdn.dribbble.com/users/5816579/screenshots/16062020/media/2338fc5e5258181685bdee0646d17523.jpg?resize=1600x1200&vertical=center'/> */}
+                </div>
+            </a>
+             <div className='gameBtn'>
+                        <button onClick={()=>{
+                            getTrivia()
+                            triviaGame()
+                            // game.style= {display:  "flex"}
+                        }}  className='noviceEngineer'> </button>
+                    </div>
+            {/* <Link className='link' to="/contact">
+              <div className='push'>
+                Contact Me
+                </div>
+                     </Link>  */}
+            
+            <a  className='widget2' href="./images/mari.pdf">
+                <div className='push2'>Resume PDF</div>
+                
+                
             </a>
             </div>
            
@@ -109,110 +149,112 @@ function Main() {
                 Home
                 </div>
             </a> */}
-            <div className='title'>
+            {/* <div className='title'>
                 <div>PROJECTS</div>
                  <div >
                         <Link className='navLink' to="/projects">
                         <div> More Projects</div>
                         </Link>
                     </div>
-            </div>
-            <div className='projectContainer'>
-                <div className='pro'>
-                    {/* <img className='proImg' src='./images/perscholas.jpg'/> */}
-                        <a  className='code'href="https://mariluzv88.github.io/perScholasMockup/">
-                            <div>
-                            Live Demo
-                            </div>
-                        </a>   
-                        <a className='code' href="https://github.com/mariluzv88/perScholasMockup/blob/master/index.html">
-                            <div>
-                            Code
-                            </div>
-                        </a>  
+            </div> */}
+            <div className='caro'>
+                        <div className='projectContainer'>
+                            <div className='pro'>
+                                <img className='proImg' src='./images/perscholas.jpg' />
+                                    {/* <a  className='code'href="https://mariluzv88.github.io/perScholasMockup/">
+                                        <div>
+                                        Live Demo
+                                        </div>
+                                    </a>   
+                                    <a className='code' href="https://github.com/mariluzv88/perScholasMockup/blob/master/index.html">
+                                        <div>
+                                        Code
+                                        </div>
+                                    </a>  */}
+                                    
+                                    
+                                </div>
+                            <div className='pro'>
+                                <img className='proImg' src='./images/perscholas.jpg'/>
+                                    {/* <a className='code' href="https://mariluzv88.github.io/perScholasMockup/">
+                                        <div>
+                                        Live Demo
+                                        </div>
+                                    </a>   
+                                    <a  className='code'href="https://github.com/mariluzv88/perScholasMockup/blob/master/index.html">
+                                        <div>
+                                        Code
+                                        </div>
+                                    </a>   */}
+                                    
+                                    
+                                </div>
+                                {/* <div className='prop'>
+                                    <Link id='a' to="/projects">
+                                    <div> More Projects</div>
+                                    </Link>
+                                </div> */}
+                        {/* </div>
+                        <div className='projectContainer'> */}
+                            <div className='pro'>
+                                <img className='proImg' src='./images/perscholas.jpg'/>
+                                    {/* <a className='code' href="https://mariluzv88.github.io/perScholasMockup/">
+                                        <div>
+                                        Live Demo
+                                        </div>
+                                    </a>   
+                                    <a className='code' href="https://github.com/mariluzv88/perScholasMockup/blob/master/index.html">
+                                        <div>
+                                        Code
+                                        </div>
+                                    </a>  
+                                     */}
+                                    
+                                </div>
+                            <div className='pro'>
+                                <img className='proImg' src='./images/perscholas.jpg'/>
+                                    {/* <a className='code' href="https://mariluzv88.github.io/perScholasMockup/">
+                                        <div>
+                                        Live Demo
+                                        </div>
+                                    </a>   
+                                    <a  className='code'href="https://github.com/mariluzv88/perScholasMockup/blob/master/index.html">
+                                        <div>
+                                        Code
+                                        </div>
+                                    </a>  
+                                     */}
+                                    
+                                </div>
+                                {/* <div className='prop'>
+                                    <Link id='a' to="/projects">
+                                    <div> More Projects</div>
+                                    </Link>
+                                </div> */}
+                        </div>
                         
-                         
-                    </div>
-                <div className='pro'>
-                    {/* <img className='proImg' src='./images/perscholas.jpg'/> */}
-                        <a className='code' href="https://mariluzv88.github.io/perScholasMockup/">
-                            <div>
-                            Live Demo
-                            </div>
-                        </a>   
-                        <a  className='code'href="https://github.com/mariluzv88/perScholasMockup/blob/master/index.html">
-                            <div>
-                            Code
-                            </div>
-                        </a>  
-                        
-                         
-                    </div>
-                    {/* <div className='prop'>
-                        <Link id='a' to="/projects">
-                        <div> More Projects</div>
-                        </Link>
-                    </div> */}
-               </div>
-            <div className='projectContainer'>
-                <div className='pro'>
-                    {/* <img className='proImg' src='./images/perscholas.jpg'/> */}
-                        <a className='code' href="https://mariluzv88.github.io/perScholasMockup/">
-                            <div>
-                            Live Demo
-                            </div>
-                        </a>   
-                        <a className='code' href="https://github.com/mariluzv88/perScholasMockup/blob/master/index.html">
-                            <div>
-                            Code
-                            </div>
-                        </a>  
-                        
-                         
-                    </div>
-                <div className='pro'>
-                    {/* <img className='proImg' src='./images/perscholas.jpg'/> */}
-                        <a className='code' href="https://mariluzv88.github.io/perScholasMockup/">
-                            <div>
-                            Live Demo
-                            </div>
-                        </a>   
-                        <a  className='code'href="https://github.com/mariluzv88/perScholasMockup/blob/master/index.html">
-                            <div>
-                            Code
-                            </div>
-                        </a>  
-                        
-                         
-                    </div>
-                    {/* <div className='prop'>
-                        <Link id='a' to="/projects">
-                        <div> More Projects</div>
-                        </Link>
-                    </div> */}
-               </div>
-            
-       </div>
-        <div className='contact' id='contact'>
-                <div className='contactContainer'>
-                    <div className='con'>
+                </div>
+                </div>
+        {/* <div className='contact' id='contact'> */}
+                {/* <div className='contactContainer'> */}
+                    {/* <div className='con'>
                         <Link id='a' to="/contact">
                             <div>CONTACT</div>
-                        </Link> 
-                        <a href="./images/mari.pdf">
+                        </Link> </div> */}
+                        {/* <a href="./images/mari.pdf">
                             <div>
                             Resume PDF
                             </div>
-                            </a>
+                            </a> */}
                         {/* <a href="#profile">
                             <div>
                             Home
                             </div>
                         </a> */}
                         <GameBoard/>
-                    </div>
-                </div>
-        </div>
+                    
+                {/* </div> */}
+        {/* </div> */}
     </div>
     
   )

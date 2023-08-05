@@ -68,35 +68,99 @@ color: red;
   /* height: 400px; */
 }
 .name{
-   margin: 100px 10px 0px 50px;
-   width: 40%;
+   margin: 100px 40px 0px 50px;
+   width: 41%;
    color: white;
    background-color: rgb(8, 0, 29);
-   height: 100px;
+   height: 180px;
+   border-radius: 15px;
+   border: solid thick rgb(52, 22, 246);
+   font-family: 'Lucida Sans';
+   font-size: 20px;
+   font-weight: bolder;
+   text-align: center;
+  
+}
+.link{
+   
+   text-decoration: none;
+   margin: 0px 20px 0px 10px;
+   width: 185px;
+   color: white;
+  background-image: url('https://ccsharedservices.com/wp-content/uploads/2023/01/Add-a-subheading-2.gif');
+  background-size: 100% 100%;
+   height: 190px;
    border-radius: 15px;
    border: solid thin rgb(52, 22, 246);
    font-family: 'Lucida Sans';
    font-size: 18px;
    text-align: center;
-  
+}
+a{
+   text-decoration: none;
+}
+.push{
+   padding-top: 80px;
+}
+.push1{
+   padding-top: 150px;
+   
+}
+.push2{
+   padding-top: 170px;
+   
+}
+.push3{
+   padding: 80px 210px 0px 0px;
+   text-decoration: none;
+   
 }
 .widget{
-   margin: 100px 0px 0px 0px;
-   width: 150px;
+   margin: 130px 60px 10px 0px;
+   width: 200px;
    color: white;
    background-color: rgb(8, 0, 29);
-   height: 100px;
+   height: 180px;
    border-radius: 15px;
    border: solid thin rgb(52, 22, 246);
    font-family: 'Lucida Sans';
    font-size: 18px;
 }
 .widget1{
-   margin: 10px 0px 0px 15px;
-   width: 150px;
+   margin: 10px 5px 0px 10px;
+   width: 355px;
    color: white;
    background-color: rgb(8, 0, 29);
-   height: 100px;
+    
+   height: 200px;
+   border-radius: 15px;
+   border: solid thin rgb(52, 22, 246);
+   font-family: 'Lucida Sans';
+   font-size: 18px;
+}
+.widget13{
+   text-decoration: none;
+   margin: 10px 5px 0px 10px;
+   width: 355px;
+   color: white;
+   background-color: rgb(8, 0, 29);
+    background-image: url('https://user-images.githubusercontent.com/66934377/223913733-deb1d974-787d-43c4-b60d-eff538aa161e.gif');
+   background-size: 100% 100%;
+   height: 200px;
+   border-radius: 15px;
+   border: solid thin rgb(52, 22, 246);
+   font-family: 'Lucida Sans';
+   font-size: 25px;
+}
+.widget2{
+   text-decoration: none;
+   margin: 10px 35px 0px 0px;
+   width: 200px;
+   color: white;
+  
+   background-image: url('https://www.worklife.news/wp-content/uploads/sites/6/2022/02/resume-stack.png');
+   background-size: 100% 100%;
+   height: 200px;
    border-radius: 15px;
    border: solid thin rgb(52, 22, 246);
    font-family: 'Lucida Sans';
@@ -104,16 +168,32 @@ color: red;
 }
 .logo{
    border-radius: 15px;
-   overflow: hidden;
+   
    height: 100%;
-   width: 105%;
+   width: 100%;
 }
-.noviceEngineer{
-   margin: 100px 80px 0px 10px;
-   width: 150px;
+.pop{
+   margin: 100px 85px 0px 10px;
+   width: 355px;
    color: white;
    background-color: rgb(8, 0, 29);
-   height: 100px;
+   height: 200px;
+   border-radius: 15px;
+   border: solid thin rgb(52, 22, 246);
+   font-family: 'Lucida Sans';
+   font-size: 28px;
+   background-image: url('https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F438fe720-6157-4ef1-ba7b-73747b06fdbc_480x360.gif');
+   background-size: 100% 100%;
+   
+}
+.noviceEngineer{
+   margin: 10px 30px 0px 30px;
+   width: 180px;
+   color: white;
+   
+   background-image: url('https://i.gifer.com/3dG.gif');
+   background-size: 100% 100%;
+   height: 180px;
    border-radius: 15px;
    border: solid thin rgb(52, 22, 246);
    font-family: 'Lucida Sans';
@@ -138,17 +218,19 @@ color: red;
    background-size: 100% 100%;
    background-attachment: fixed;
    /* background: -webkit-linear-gradient(rgb(28, 28, 28),rgb(81, 81, 81));  */
-   color: white;
+   color: rgb(0, 0, 0);
    scroll-padding-top: 0;
    scroll-snap-align: center
 }
 .projects{
    height: 100vh;
+   /* background-color: rgb(139, 139, 139); 
+   background: -webkit-linear-gradient(rgb(93, 93, 93),rgb(180, 180, 180)); */
    background-color: rgb(139, 139, 139); 
-   background: -webkit-linear-gradient(rgb(93, 93, 93),rgb(180, 180, 180));
+   background: -webkit-linear-gradient(rgb(25, 25, 25),black);
    color: white;
-   scroll-padding-top: 0;
-   scroll-snap-align: center
+   /* scroll-padding-top: 0;
+   scroll-snap-align: center */
 }
 .contact{
    height: 100vh;
@@ -158,11 +240,45 @@ color: red;
    scroll-padding-top: 0;
    scroll-snap-align: center
 }
+.caro{
+   
+   padding: 60px 0;
+   background: red;
+}
 .projectContainer{
+   height: 500px;
    display: flex;
-   justify-content: space-evenly;
-   align-items: center;
+   width: 1000px;
+   /* justify-content: center; */
+   align-items: center; 
    /* flex-direction: column; */
+   /* height: 250px; */
+   /* width: 90%; */
+}
+.pro{
+   height: 500px;
+   display: flex;
+   /* justify-content: center; */
+   align-items: center;
+   /* text-align: center;
+   border-radius: 15%;
+    border: solid rgb(0, 0, 0); */
+/* background-image: url('./images/perscholas.jpg');
+background-size: 100% 100%; */
+/*
+border-width: 4px; */
+ /* margin: 80px 20px 0px 20px; */
+ /* height: 200px; */
+ width: 250px
+}
+/* .pro::after{} */
+.proImg{
+   margin: 0 40px;
+   /* height: 280px; */
+   width: 100%;
+}
+.proImg:hover{
+   transform: translateZ(20px);
 }
 .title{
    display: flex;
@@ -190,25 +306,7 @@ padding-top: 10px;
 border: solid rgb(0, 0, 0);
 border-width: 4px;
 }
-.pro{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   text-align: center;
-   border-radius: 15%;
-   
-background-image: url('./images/perscholas.jpg');
-background-size: 100% 100%;
-border: solid rgb(0, 0, 0);
-border-width: 4px;
- margin: 80px 20px 0px 20px;
- height: 290px;
- width: 50%;
-}
-.proImg{
-   height: 280px;
-   width: 100%;
-}
+
 .contactContainer{
    display: flex;
    justify-content: center;
