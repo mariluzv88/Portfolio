@@ -25,16 +25,24 @@ function TriviaS2() {
     
   return (
     <div >
+       <button className='trivX' onClick={()=>{
+              setGameBoard(!gameBoard)
+          }}>X</button>
           <div >
+            <div className='trivText'>
               <h3>{trivia.question}</h3> 
+              </div>
                   <div className='btnContainer'>
                       <div className='answers'>
                         {/* <button onClick={()=>getAnswer(y)} className='btn'  >{trivia.correct_answer}</button> */}
-                        
-                        <button onClick={()=>getAnswer(n)} className='btn'  >{trivia.incorrect_answers[1]}</button>
-                        <button onClick={()=>getAnswer(n)} className='btn'  >{trivia.incorrect_answers[0]}</button>
-                        <button onClick={()=>getAnswer(n)} className='btn'  >{trivia.incorrect_answers[2]}</button>
-                        <button onClick={()=>getAnswer(y)} className='btn'  >{trivia.correct_answer}</button>
+                        <div>
+                          <button onClick={()=>getAnswer(n)} className='options'  >{trivia.incorrect_answers[1]}</button>
+                          <button onClick={()=>getAnswer(n)} className='options'  >{trivia.incorrect_answers[0]}</button>
+                        </div>
+                        <div>
+                          <button onClick={()=>getAnswer(n)} className='options'  >{trivia.incorrect_answers[2]}</button>
+                          <button onClick={()=>getAnswer(y)} className='options'  >{trivia.correct_answer}</button>
+                        </div>
                       {/* {trivia ?(trivia.incorrect_answers.map((q,i)=>{
                          
                         //   let an = [`${trivia.correct_answer},${q}`]

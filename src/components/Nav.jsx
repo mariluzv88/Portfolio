@@ -14,11 +14,7 @@ function Nav() {
                         </div>
                     </a>
             
-            {/* <a to="#profile">
-                <div>
-                    <img className='icon' src='./images/mari.png'/>
-                </div>
-            </a> */}
+            
             <a className='navLink' href="/#about">
                 <div >About</div>
             </a>
