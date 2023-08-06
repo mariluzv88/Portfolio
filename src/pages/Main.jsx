@@ -164,8 +164,24 @@ function Main() {
                                     
                                 </div> */}
                                 <div className='pro'>
+                                    <div className='proHarry'>
+                                <h2>Harry Potter : Wack a Mole game</h2>
+                                <h5> 2 player Game with multiple stages </h5>
+                                </div>
+                                <a  href="https://mariluzv88.github.io/wackAMole/">
+                                        <button className='proBtn'>
+                                        Live Demo
+                                        </button>
+                                    </a>   
+                                    <a  href="https://github.com/mariluzv88/wackAMole">
+                                        <button className='proBtn'>
+                                        Code
+                                        </button>
+                                    </a> 
+                                </div>
+                                <div className='pro'>
                                     <div className='proName'>
-                                <h3>PerScholas Website Mockup</h3>
+                                <h2>PerScholas Website Mockup</h2>
                                 <h5>Created to emulate the PerScholas Website. Made fully responsive</h5>
                                 </div>
                                 <a  href="https://mariluzv88.github.io/perScholasMockup/">
@@ -180,48 +196,32 @@ function Main() {
                                     </a> 
                                 </div>
                                 <div className='pro'>
-                                    <div className='proName'>
-                                <h3>PerScholas Website Mockup</h3>
+                                    <div className='proMuse'>
+                                <h2>Mueseum Locations API</h2>
                                 <h5>Created to emulate the PerScholas Website. Made fully responsive</h5>
                                 </div>
-                                <a  href="https://mariluzv88.github.io/perScholasMockup/">
+                                <a  href=" https://mariluzv88.github.io/museumApi/">
                                         <button className='proBtn'>
                                         Live Demo
                                         </button>
                                     </a>   
-                                    <a  href="https://github.com/mariluzv88/perScholasMockup/blob/master/index.html">
+                                    <a  href="https://github.com/mariluzv88/museumApi">
                                         <button className='proBtn'>
                                         Code
                                         </button>
                                     </a> 
                                 </div>
                                 <div className='pro'>
-                                    <div className='proName'>
-                                <h3>PerScholas Website Mockup</h3>
-                                <h5>Created to emulate the PerScholas Website. Made fully responsive</h5>
+                                    <div className='proNasa'>
+                                <h2>Nasa Inspired Mockup</h2>
+                                <h5>Created to reimagine the Nasa official Website. Ultilizes keyframes</h5>
                                 </div>
-                                <a  href="https://mariluzv88.github.io/perScholasMockup/">
+                                <a  href="https://mariluzv88.github.io/nasaMockSite/">
                                         <button className='proBtn'>
                                         Live Demo
                                         </button>
                                     </a>   
-                                    <a  href="https://github.com/mariluzv88/perScholasMockup/blob/master/index.html">
-                                        <button className='proBtn'>
-                                        Code
-                                        </button>
-                                    </a> 
-                                </div>
-                                <div className='pro'>
-                                    <div className='proName'>
-                                <h3>PerScholas Website Mockup</h3>
-                                <h5>Created to emulate the PerScholas Website. Made fully responsive</h5>
-                                </div>
-                                <a  href="https://mariluzv88.github.io/perScholasMockup/">
-                                        <button className='proBtn'>
-                                        Live Demo
-                                        </button>
-                                    </a>   
-                                    <a  href="https://github.com/mariluzv88/perScholasMockup/blob/master/index.html">
+                                    <a  href="https://github.com/mariluzv88/nasaMockSite">
                                         <button className='proBtn'>
                                         Code
                                         </button>

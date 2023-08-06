@@ -293,6 +293,7 @@ margin: 100px 40px 0px 40px;
    background-color: rgba(72, 0, 253, 0.602);
    transform: translateX(-3px);
 }
+/* projects / perscholas */
 .proName{
    padding: 50px;
    margin: 0px 40px 15px 50px;
@@ -309,6 +310,66 @@ margin: 100px 40px 0px 40px;
 }
 .proName:hover{
    background-image: url('./images/perscholas.jpg');
+   background-size: 100% 100%;
+   color: rgba(0, 0, 0, 0);
+}
+/* projects / nasa */
+.proNasa{
+   padding: 50px;
+   margin: 0px 40px 15px 50px;
+   width: 300px;
+   color: white;
+   background-color: rgb(8, 0, 29);
+   height: 140px;
+   border-radius: 15px;
+   border: solid thin rgb(52, 22, 246);
+   font-family: 'Lucida Sans';
+   font-size: 20px;
+   font-weight: bolder;
+   text-align: center;
+}
+.proNasa:hover{
+   background-image: url('./images/nasa.PNG');
+   background-size: 100% 100%;
+   color: rgba(0, 0, 0, 0);
+}
+/* projects / wack a mole */
+.proHarry{
+   padding: 50px;
+   margin: 0px 40px 15px 50px;
+   width: 300px;
+   color: white;
+   background-color: rgb(8, 0, 29);
+   height: 140px;
+   border-radius: 15px;
+   border: solid thin rgb(52, 22, 246);
+   font-family: 'Lucida Sans';
+   font-size: 20px;
+   font-weight: bolder;
+   text-align: center;
+}
+.proHarry:hover{
+   background-image: url('./images/wack.jpg');
+   background-size: 100% 100%;
+   color: rgba(0, 0, 0, 0);
+}
+/* projects / museum */
+.proMuse{
+   padding: 50px;
+   margin: 0px 40px 15px 50px;
+   width: 300px;
+   color: white;
+   background-color: rgb(8, 0, 29);
+   height: 140px;
+   border-radius: 15px;
+   border: solid thin rgb(52, 22, 246);
+   font-family: 'Lucida Sans';
+   font-size: 20px;
+   font-weight: bolder;
+   text-align: center;
+}
+.proMuse:hover{
+   background-image: url('./images/muse.PNG');
    background-size: 100% 100%;
    color: rgba(0, 0, 0, 0);
 }
