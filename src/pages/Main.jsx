@@ -63,11 +63,12 @@ function Main() {
                 <img className='logo'src='https://cdn.dribbble.com/users/5816579/screenshots/16062020/media/2338fc5e5258181685bdee0646d17523.jpg?resize=1600x1200&vertical=center'/>
                 </div>
             </a> */}
-            <Link className='link' to="/contact">
+            
+                <a href='https://mail.google.com/mail/u/0/?fs=1&to=mariluzv88@gmail.com&tf=cm' className='link'>
               <div className='push'>
                 
-                </div>
-                     </Link> 
+                </div></a>
+                     
              <a   href="https://www.linkedin.com/in/mariluz-vargas"><div className='widget1'>
                 <img className='logo'src='https://www.pagetraffic.com/blog/wp-content/uploads/2022/09/latest-linked-logo.gif'/>
                 </div>
@@ -117,35 +118,24 @@ function Main() {
                 Home
                 </div>
             </a> */}
-            <div className='overlay'></div>
+            
             <div className='mainContainer'>
                 <div className='main'>
                     <h1>Software Engineer</h1>
-                    <h4>Hi,I'm Mariluz Vargas</h4>
-                    <h5> I am a college educated, highly motivated,</h5>
-                    <h5> Software Engineer with experience in web applications</h5>
+                    <h3>Hi,I'm Mariluz Vargas</h3>
+                    <h4> I am a college educated, highly motivated,</h4>
+                    <h4> Software Engineer with experience in web applications</h4>
                      <Link className='navLink' to="/about">
-                         <div >Read More</div>
+                         <div className='aboutBtn'><h3>Read More</h3></div>
                          </Link>  
                     <div>
-                    <div className='overlay'></div>
-                        {/* <a href="https://www.linkedin.com/in/mariluz-vargas">
-                            <div>
-                            linkedin
-                            </div>
-                        </a>   
-                        <a href="https://github.com/mariluzv88">
-                            <div>
-                            gitHub
-                            </div>
-                        </a> */}
+                    
+                       
                          
                     </div>
                     
                 </div>
-                {/* <div className='main'>
-                <img className='icon' src='./images/mari.png'/>
-                </div> */}
+               
 
             </div>
                 {/* <GameBoard/> */}
