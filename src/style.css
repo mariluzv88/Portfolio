@@ -31,26 +31,41 @@
    cursor: pointer;
    /* border: solid white; */
 }
+.navLink:hover{
+   color: rgb(255, 0, 153);
+}
 
-.navlink:hover{
-   border: solid rgba(255, 255, 255, 0);
+/* .navlink:hover{
+   border: solid rgba(255, 255, 255, 0); */
    /* padding: 1px; */
    /* margin-top: .2em; */
-   text-align: center;
+   /* text-align: center; */
    /* height: 12px; */
    /* width: 40px; */
-   border-radius: 44%;
+   /* border-radius: 44%; */
    /* background-color: white; */
-   color: black;
-}
-#profile.a:hover{
+   /* color: black;
+} */
+/* #profile.a:hover{
 color: red;
-}
+} */
 .navContainer{
    text-decoration: none;
    display: flex;
    justify-content: space-between;
    /* margin-left: 350px; */
+   margin: 0px 140px 70px 50px;
+   width: 41%;
+   color: white;
+   background-color: rgb(8, 0, 29);
+   height: 20px;
+   padding: 20px;
+   border-radius: 15px;
+   border: solid thick rgb(52, 22, 246);
+   font-family: 'Lucida Sans';
+   font-size: 20px;
+   font-weight: bolder;
+   text-align: center;
 }
 
 .profile{
@@ -543,21 +558,143 @@ text-align: center;
 display: flex;
 flex-direction: column;
 justify-content: space-between;
-align-items: space-between;
+align-items:center;
 text-align: center;
 background-color: black;
 }
 .page{
-   height: 100vh;
+   border: solid thick rgb(52, 22, 246);
+   height: 50vh;
    /* width: 650px; */
-   margin-top: 250px;
-   background-color: rgba(128, 128, 128, 0.559);
-   border-radius: 9%;
+   margin-top: 80px;
+   background-color: rgba(128, 128, 128, 0.223);
+   border-radius:15px;
    overflow: hidden;
+   padding: 100px 50px 0px 50px ;
+   font-family:'Lucida Sans';
+   font-weight: lighter;
+   color: rgba(234, 255, 230, 0.674);
+   box-shadow: black;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.iconPage{
+   border: solid thick rgb(52, 22, 246);
+   height: 20vh;
+   /* width: 650px; */
+   margin-top: 20px;
+   background-color: rgba(128, 128, 128, 0.223);
+   border-radius: 15px;
+   /* overflow: hidden; */
    padding: 50px;
    font-family:'Lucida Sans';
    font-weight: lighter;
    color: rgb(255, 255, 255);
    box-shadow: black;
    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   display: flex;
+ 
+   justify-content: center;
+   align-items: center;
+  
 }
+.aboutIcons{
+  width: 80px;
+   color: white;
+  margin: 20px;
+ overflow: hidden;
+   height: 80px;
+   border-radius: 15px;
+   border: solid thin rgb(52, 22, 246);
+   font-family: 'Lucida Sans';
+   font-size: 18px;
+}
+/*about page /tech icons */
+.cImg{
+  background-color: rgb(34,153,248);
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding-top: 30%;
+  font-size: 28px;
+  font-family: 'Lucida Sans';
+  font-weight: bolder;
+}
+.hImg{
+  background-color: rgb(227,79,38);
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding-top: 30%;
+  font-size: 28px;
+  font-family: 'Lucida Sans';
+  font-weight: bolder;
+}
+.jImg{
+  background-color: rgb(233,202,50);
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding-top: 30%;
+  font-size: 28px;
+  font-family: 'Lucida Sans';
+  font-weight: bolder;
+  color: black;
+}
+.sImg{
+  background-color: rgb(66,117,156);
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding-top: 30%;
+  font-size: 23px;
+  font-family: 'Lucida Sans';
+  font-weight: bolder;
+  color:rgb(247,160,23);
+}
+.eImg{
+  background-color: rgb(255,148,46);
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0px 0px 2px;
+  font-size: 18px;
+  font-family: 'Lucida Sans';
+  font-weight: bolder;
+ 
+}
+.rImg{
+  background-color: rgb(33,33,33);
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  font-size: 22px;
+  font-family: 'Lucida Sans';
+  font-weight: bolder;
+  color: rgb(0,215,255);
+  padding: 20px 0px 0px 2px;
+ 
+}
+.nImg{
+  background-color: rgb(146,192,61);
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0px 0px 2px;
+  font-size: 22px;
+  font-family: 'Lucida Sans';
+  font-weight: bolder;
+ 
+}
+.mImg{
+  background-color: rgb(83,170,80);
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding: 22px 0px 0px 2px;
+  font-size: 20px;
+  font-family: 'Lucida Sans';
+  font-weight: bolder;
+  color: rgb(143,115,82);
+ 
+}
+

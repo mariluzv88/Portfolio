@@ -6,9 +6,9 @@ function Nav() {
   return (
     <div className='nav'>
         <div className='navContainer'>
-            <div >Mari's Portfolio</div>
             
-                <a className='navLink' href="#profile">
+            
+                <a className='navLink' href="/#profile">
                         <div>
                         Home
                         </div>
@@ -19,15 +19,13 @@ function Nav() {
                     <img className='icon' src='./images/mari.png'/>
                 </div>
             </a> */}
-            <a className='navLink' href="#about">
-                <div >ABOUT</div>
+            <a className='navLink' href="/#about">
+                <div >About</div>
             </a>
-            <a  className='navLink' href="#projects">
-                <div>PROJECTS</div>
+            <a  className='navLink' href="/#projects">
+                <div>Projects</div>
             </a>
-            <a className='navLink' href="#contact">
-                <div>CONTACT</div>
-            </a>
+           
         </div>
     </div>
   )

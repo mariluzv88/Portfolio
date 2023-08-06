@@ -33,6 +33,7 @@ function Main() {
     
   return (
     <div className='container'>
+        <Nav/>
         {/* <div className='gameBtn'>
         <button onClick={()=>{
             getTrivia()
