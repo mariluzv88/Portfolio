@@ -78,6 +78,7 @@
    }
    /* profile / contact me */
    .link{
+      cursor: pointer;
       text-decoration: none;
       margin: 0px 20px 0px 10px;
       width: 285px;
@@ -99,7 +100,7 @@
       
    }
    .push2{
-      padding-top: 170px;
+      padding-top: 220px;
       
    }
    .push3{
@@ -108,6 +109,7 @@
       
    }
    .widget{
+      cursor: pointer;
       margin: 130px 60px 10px 0px;
       width: 200px;
       color: white;
@@ -120,6 +122,7 @@
    }
    /* profile /linkedin */
    .widget1{
+      cursor: pointer;
       margin: 10px 5px 0px 10px;
       width: 455px;
       color: white;
@@ -133,6 +136,7 @@
    }
    /* profile / github */
    .widget13{
+      cursor: pointer;
       text-decoration: none;
       margin: 10px 5px 0px 10px;
       width: 455px;
@@ -152,7 +156,7 @@
       margin: 10px 35px 0px 0px;
       width: 300px;
       color: white;
-   
+      cursor: pointer;
       background-image: url('https://www.worklife.news/wp-content/uploads/sites/6/2022/02/resume-stack.png');
       background-size: 100% 100%;
       height: 250px;
@@ -180,6 +184,7 @@
       font-size: 28px;
       background-image: url('https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F438fe720-6157-4ef1-ba7b-73747b06fdbc_480x360.gif');
       background-size: 100% 100%;
+      cursor: pointer;
    }
    /* profile button wiggles */
    .pop:hover, .link:hover, .widget1:hover, .widget13:hover, .noviceEngineer:hover, .widget2:hover{
@@ -190,7 +195,7 @@
       margin: 10px 30px 0px 30px;
       width: 290px;
       color: white;
-      
+      cursor: pointer;
       background-image: url('https://i.gifer.com/3dG.gif');
       background-size: 100% 100%;
       height: 240px;
@@ -462,6 +467,7 @@
       border: solid thin rgb(52, 22, 246);
    }
    .proBtn{
+      cursor: pointer;
       margin: 0px 40px 15px 50px;
       width: 500px;
       color: rgb(255, 255, 255);
@@ -909,6 +915,7 @@
    }
    /* profile / projects btn */
    .pop{
+      cursor: pointer;
       margin: 100px 85px 0px 10px;
       width: 355px;
       color: white;
@@ -930,7 +937,7 @@
       margin: 10px 30px 0px 30px;
       width: 180px;
       color: white;
-      
+      cursor: pointer;
       background-image: url('https://i.gifer.com/3dG.gif');
       background-size: 100% 100%;
       height: 180px;
@@ -1196,6 +1203,7 @@
       border: solid thin rgb(52, 22, 246);
    }
    .proBtn{
+      cursor: pointer;
       margin: 0px 40px 15px 50px;
       width: 400px;
       color: rgb(255, 255, 255);
@@ -1645,6 +1653,7 @@
    }
    /* profile / projects btn */
    .pop{
+      cursor: pointer;
       margin: 30px 5px 0px 10px;
       width: 355px;
       color: white;
@@ -1666,7 +1675,7 @@
       margin: 30px 30px 0px 30px;
       width: 360px;
       color: white;
-      
+      cursor: pointer;
       background-image: url('https://i.gifer.com/3dG.gif');
       background-size: 100% 100%;
       height: 180px;
@@ -1933,6 +1942,7 @@
       border: solid thin rgb(52, 22, 246);
    }
    .proBtn{
+      cursor: pointer;
       margin: 0px 40px 15px 23px;
       width: 300px;
       color: rgb(255, 255, 255);
