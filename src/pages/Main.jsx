@@ -66,8 +66,8 @@ function Main() {
              <div className='gameBtn'>
                  
                         <button onClick={()=>{
-                            getTrivia()
                             triviaGame()
+                            getTrivia()
                             // game.style= {display:  "flex"}
                         }}  className='noviceEngineer'> </button>
                     </div>
