@@ -11,10 +11,10 @@ function GameOver() {
     },[])
   return (
     <div>
-        <div className='engineerOver'>
-        <button className='xBtn' onClick={()=>{
+        <button className='trivX' onClick={()=>{
               setGameBoard(!gameBoard)
           }}>X</button>
+        <div className='engineerOver'>
           <div className='failText'>
             <h1>YOU HAVE FAILED</h1><br/>
             <h2>SpongeBob still needs you !</h2><br/>
