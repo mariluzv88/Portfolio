@@ -4,8 +4,8 @@
 
 ***
  
- <h3>Description</h3>
  <h3>GitHub Pages Link:https://mariluzv88.github.io/Portfolio/</h3>
+ <h3>Description</h3>
 Portfolio showcasing resume, linkedin, github, about me section and project section.Includes a mini game that pulls from a API
  <h2> Dependencies</h2>
   <ul>
