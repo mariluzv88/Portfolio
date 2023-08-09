@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.d7053c13.css",
+    "main.css": "/Portfolio/static/css/main.1a316502.css",
     "main.js": "/Portfolio/static/js/main.460143be.js",
     "static/media/nasa.PNG": "/Portfolio/static/media/nasa.867ea3c2a43f8aaf09b2.PNG",
     "static/media/perscholas.jpg": "/Portfolio/static/media/perscholas.c41d4089e82064411962.jpg",
     "static/media/wack.jpg": "/Portfolio/static/media/wack.c40518c2516c3e213845.jpg",
     "static/media/muse.PNG": "/Portfolio/static/media/muse.e7507b247cae7e8a9409.PNG",
     "index.html": "/Portfolio/index.html",
-    "main.d7053c13.css.map": "/Portfolio/static/css/main.d7053c13.css.map",
+    "main.1a316502.css.map": "/Portfolio/static/css/main.1a316502.css.map",
     "main.460143be.js.map": "/Portfolio/static/js/main.460143be.js.map"
   },
   "entrypoints": [
-    "static/css/main.d7053c13.css",
+    "static/css/main.1a316502.css",
     "static/js/main.460143be.js"
   ]
 }
