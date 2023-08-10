@@ -72,11 +72,12 @@ function Main() {
                         }}  className='noviceEngineer'> </button>
                     </div>
          
-            <a  className='widget2' href="./images/mari.pdf">
+               <a  className='widget2' href="portfolio/images/Mariluz.pdf">
                 <div className='push2'>Resume PDF</div>
                 
                 
             </a>
+            
             </div>
            
         </div>
@@ -134,6 +135,22 @@ function Main() {
                                         </button>
                                     </a>   
                                     <a  href="https://github.com/mariluzv88/perScholasMockup/blob/master/index.html">
+                                        <button className='proBtn'>
+                                        Code
+                                        </button>
+                                    </a> 
+                                </div>
+                                <div className='pro'>
+                                    <div className='proStar'>
+                                <h2>Star Wars WebSite</h2>
+                                <h5> A StarWars Responsive Website that pulls Data from a StarWars API.</h5>
+                                </div>
+                                <a  href="https://mariluzv88.github.io/starWarsApi">
+                                        <button className='proBtn'>
+                                        Live Demo
+                                        </button>
+                                    </a>   
+                                    <a  href="https://github.com/mariluzv88/starWarsApi">
                                         <button className='proBtn'>
                                         Code
                                         </button>
