@@ -2496,6 +2496,7 @@
    /* -------------------about section content---------------- */
    .about{
       height: 100vh;
+      width: 100%;
       /* background-color: rgb(61, 61, 61); */
       background-image: url('https://wallpapers.com/images/hd/lovely-beach-anime-scenery-saug7oyjz1m23kth.webp');
       background-image: url('https://wallpaperaccess.com/full/2825826.gif');

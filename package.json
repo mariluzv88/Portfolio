@@ -3,7 +3,7 @@
   "name": "portfolio",
   
   "version": "0.1.0",
-
+  
   "homepage": "https://mariluzv88.github.io/Portfolio",
   
   "private": true,
@@ -64,11 +64,12 @@
   },
   
   "scripts": {
+  
     
-  "predeploy":"npm run build",
-
+  "predeploy": "npm run build",
+  
     
-  "deploy":"gh-pages -d build",
+  "deploy": "gh-pages -d build",
   
     
   "start": "react-scripts start",

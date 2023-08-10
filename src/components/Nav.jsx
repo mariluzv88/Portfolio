@@ -8,17 +8,19 @@ function Nav() {
         <div className='navContainer'>
             
             
-                <a className='navLink' href="/#profile">
+                <a className='navLink' href="/Portfolio/#profile">
                         <div>
                         Home
                         </div>
                     </a>
             
             
-            <a className='navLink' href="/#about">
+            <a className='navLink' href="/Portfolio/#about">
                 <div >About</div>
             </a>
-            <a  className='navLink' href="/#projects">
+            {/* <a  className='navLink' href="/#projects"> */}
+            <a  className='navLink' href="/Portfolio#projects">
+            
                 <div>Projects</div>
             </a>
            

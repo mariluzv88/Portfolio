@@ -72,7 +72,8 @@ function Main() {
                         }}  className='noviceEngineer'> </button>
                     </div>
          
-               <a  className='widget2' href="portfolio/images/Mariluz.pdf">
+               {/* <a  className='widget2' href="/Portfolio/images/Mariluz.pdf"> */}
+               <a  className='widget2' href="/Portfolio/images/Mari.pdf">
                 <div className='push2'>Resume PDF</div>
                 
                 
