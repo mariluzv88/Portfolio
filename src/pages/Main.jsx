@@ -73,7 +73,7 @@ function Main() {
                     </div>
          
                {/* <a  className='widget2' href="/Portfolio/images/Mariluz.pdf"> */}
-               <a  className='widget2' href="/Portfolio/images/Mari.pdf">
+               <a  className='widget2' href="/Portfolio/images/Mariluz.pdf">
                 <div className='push2'>Resume PDF</div>
                 
                 

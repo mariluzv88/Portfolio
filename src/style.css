@@ -40,11 +40,12 @@
       border-radius: 15px;
       border: solid thick rgb(52, 22, 246);
       border: solid thick rgba(52, 22, 246, 0);
-      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      box-shadow: rgba(0, 0, 0, 0.544) 0px 3px 8px;
       font-family: 'Lucida Sans';
       font-size: 20px;
       font-weight: bolder;
       text-align: center;
+      z-index: 1 
    }
    /* -----------------profile section content------------------ */
    .profile{
@@ -806,11 +807,12 @@
       border-radius: 15px;
       border: solid thick rgb(52, 22, 246);
       border: solid thick rgba(52, 22, 246, 0);
-      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      box-shadow: rgba(0, 0, 0, 0.544) 0px 3px 8px;
       font-family: 'Lucida Sans';
       font-size: 20px;
       font-weight: bolder;
       text-align: center;
+      z-index: 1;
    }
    /* -----------------profile section content------------------ */
    .profile{
@@ -1563,11 +1565,12 @@
       border-radius: 15px;
       border: solid thick rgb(52, 22, 246);
       border: solid thick rgba(52, 22, 246, 0);
-      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      box-shadow: rgba(0, 0, 0, 0.544) 0px 3px 8px;
       font-family: 'Lucida Sans';
       font-size: 20px;
       font-weight: bolder;
       text-align: center;
+      z-index: 1;
    }
    /* -----------------profile section content------------------ */
    .profile{
@@ -2326,11 +2329,12 @@
       border-radius: 15px;
       border: solid thick rgb(52, 22, 246);
       border: solid thick rgba(52, 22, 246, 0);
-      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      box-shadow: rgba(0, 0, 0, 0.544) 0px 3px 8px;
       font-family: 'Lucida Sans';
       font-size: 20px;
       font-weight: bolder;
       text-align: center;
+      z-index: 1;
    }
    /* -----------------profile section content------------------ */
    .profile{
@@ -2496,7 +2500,7 @@
    /* -------------------about section content---------------- */
    .about{
       height: 100vh;
-      width: 100%;
+      /* width: 100%; */
       /* background-color: rgb(61, 61, 61); */
       background-image: url('https://wallpapers.com/images/hd/lovely-beach-anime-scenery-saug7oyjz1m23kth.webp');
       background-image: url('https://wallpaperaccess.com/full/2825826.gif');
@@ -3081,6 +3085,9 @@ body{
 a{
    text-decoration: none;
 }
+html {
+   scroll-behavior: smooth;
+ }
 
 
 
